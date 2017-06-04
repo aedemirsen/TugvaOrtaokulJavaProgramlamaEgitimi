@@ -11,60 +11,65 @@ package odevler;
  */
 public class Araba {
     
-    String marka,model,renk,plakaNo;
-    int hiz,kapiSayisi;
-    boolean sporMu;
-    double agirlik;
+    final String renk; 
+    final int sonHiz = 180;
+    String marka,model;
+    double tekerlekCapi,yukseklik;
+    int hiz,silindirSayisi,tekerlekSayisi;
     
-    public Araba(){
-        renk = "Kırmızı";
+    
+    //1.constructor
+    Araba(){
+        renk = "kirmizi";
     }
     
-    int hiziArtir(int hiz){
-        this.hiz += hiz;
-        return this.hiz;
+    int hiziArtir(int h){
+        hiz += h;
+        return hiz;
     }
     
     public static void main(String[] args) {
         
         Araba araba1 = new Araba();
+        
+        araba1.hiz = 100;
+        araba1.marka = "Toyota";
+        araba1.model = "Corolla";
+        araba1.silindirSayisi = 4;
+        
         Araba araba2 = new Araba();
+        
+        araba2.hiz = 130;
+        araba2.marka = "Tofas";
+        araba2.model = "SLX";
+        araba2.silindirSayisi = 6;
+        
         Araba araba3 = new Araba();
         
-        //HIZ ATAMALARI
-        araba1.hiz = 180;
-        araba2.hiz = 280;
-        araba3.hiz = 220;
+        araba3.hiz = 90;
+        araba3.marka = "Volkswagen";
+        araba3.model = "Passat";
+        araba3.silindirSayisi = 5;
         
-        //MARKA ATAMALARI
-        araba1.marka = "BMW";
-        araba2.marka = "Honda";
-        araba3.marka = "Mercedes";
+        int a =  araba1.hiz; 
+        int b =  araba2.hiz;
+        int c =  araba3.hiz;
+        int max = 0;
         
-        //HIZ KONTROLU
-        int hizAraba1 = araba1.hiz;
-        int hizAraba2 = araba2.hiz;
-        int hizAraba3 = araba3.hiz;
-        
-        if (hizAraba1 > hizAraba2) {
-            if (hizAraba1 > hizAraba3) {
-                System.out.println("en hızlı 1.araba");
-            }
-            else{
-                System.out.println("en hızlı 3.araba");
-            }
+        if (a > b && a > c) {
+            max = a;
         }
-        else{
-            if (hizAraba2 > hizAraba3) {
-                System.out.println("en hizli 2.araba");
-            }
-            else{
-                System.out.println("en hızlı 3.araba");
-            }
+        else if (b > c && b > a) {
+            max = b;
+        }
+        else if (c > a && c > b) {
+            max = c;
         }
         
-        
+        System.out.println(araba1.renk);
+    
     }
+    
     
     
 }
