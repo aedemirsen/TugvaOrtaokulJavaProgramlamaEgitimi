@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package odevler;
+package odev_1;
 
 /**
  *
@@ -71,5 +71,16 @@ public class Araba {
     }
     
     
+    
+}
+
+
+class Sinif{
+    
+    String [] ogrenciIsimleri;
+    
+    Sinif(int kapasite){
+        ogrenciIsimleri = new String[kapasite];
+    }
     
 }
