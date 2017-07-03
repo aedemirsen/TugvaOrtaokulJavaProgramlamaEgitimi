@@ -1,0 +1,26 @@
+1.SORU
+*yaricap ve pi özellikleri olan bir Daire sýnýfý tanýmlayýn.
+*DaireIslem sýnýfý tanýmlayýn ve bu sýnýfta þu metodlar olsun:
+  - Parametre olarak aldýðý 2 daire nin yarýçaplarýnýn eþit olup olmadýðýný kontrol etsin.
+    eðer eþit ise true deðilse false döndürsün.
+  - Parametre olarak aldýðý iki dairenin alanlarý toplamýný geri döndürsün.
+  - Parametre olarak aldýðý iki dairenin çevreleri farkýný geri döndürsün.
+  - Parametre olarak aldýðý dairenin çapýný 2 kat artýrsýn.
+
+2.SORU
+*DiziIslemleri isimli bir sýnýf tanýmlayýn ve içinde þu metodlar bulunsun:
+  - Parametre olarak aldýðý integer bir dizinin max elemanýný bulup geri döndürsün. 
+  - Parametre olarak aldýðý integer bir dizinin min elemanýný bulup geri döndürsün.
+  - Parametre olarak aldýðý integer bir dizi içerisindeki ilk pozitif elemaný geri döndürsün.
+  - Parametre olarak aldýðý integer bir dizi içerisindeki son pozitif elemaný geri döndürsün.
+  - Parametre olarak aldýðý integer bir dizinin elemanlarý toplamýný geri döndürsün.
+  - Parametre olarak aldýðý bir dizinin eleman sayýsýný geri döndürsün.
+  - Parametre olarak aldýðý integer bir dizi içerisindeki yine parametre aldýðý iki index 
+    deðerinin toplamýný geri döndürsün. (Örnek : topla(int [] dizi, int index1, int index2) )
+
+3.SORU
+*Bir HesapMakinesi sýnýfý tanýmlayýn ve içerisinde hesap makinesinin yaptýðý en az 7 iþlemi gerçekleþtiren
+metodlar olsun.
+
+
+BÜTÜN BU METODLAR TEST EDÝLMELÝDÝR!
