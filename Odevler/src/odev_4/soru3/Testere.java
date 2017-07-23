@@ -11,4 +11,8 @@ package odev_4.soru3;
  */
 public class Testere extends Malzeme{
     
+    public Testere(String barkodNo) {
+        super(barkodNo);
+    }
+    
 }

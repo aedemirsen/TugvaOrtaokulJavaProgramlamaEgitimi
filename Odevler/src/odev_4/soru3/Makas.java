@@ -11,4 +11,8 @@ package odev_4.soru3;
  */
 public class Makas extends Malzeme {
     
+    public Makas(String barkodNo) {
+        super(barkodNo);
+    }
+    
 }
